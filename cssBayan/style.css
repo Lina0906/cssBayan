@@ -94,42 +94,43 @@ input:checked+label+.pick {
         font-size: 30px;
 
     }
+}
 
-    @media (max-width: 420px) {
+@media (max-width: 420px) {
 
-        .container {
-            max-width: 420px;
-        }
-
-        body {
-            font-size: 15px;
-        }
-
-        h1 {
-            font-size: 25px;
-        }
-
-        img {
-            width: 251px;
-            height: 229px;
-        }
-
-        label {            
-            width: 251px;
-        }
+    .container {
+        max-width: 420px;
     }
 
-    @media (max-width: 320px) {
-
-        .container {
-            max-width: 320px;
-        }
-
-        body {
-            font-size: 12px;
-        }
-
-        h1 {
-            font-size: 22px;
-        }
+    body {
+        font-size: 15px;
     }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    img {
+        width: 251px;
+        height: 229px;
+    }
+
+    label {
+        width: 251px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .container {
+        max-width: 320px;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+}
